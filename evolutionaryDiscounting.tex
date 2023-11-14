@@ -138,7 +138,62 @@
 \doublespacing
 \begin{document}
 
-Here is my document :-)
+\section{Introduction}
 
+Time preferences describe an individual's willingness to wait for a delayed reward in the presence of a more immediate alternative. Quantiatively,
+time preferences are described by a \textit{discounting function} $\Delta(t)$. A reward of unit magnitude received at delay $t$ maintains a fraction
+$\Delta(t)$ of its value. For example, \textit{exponential discounting} describes the class of discounting functions parametrized by $r>0$:
+\begin{equation}
+    \Delta(t) = e^{-rt}
+    \label{eqn:exponential_discounting}
+\end{equation}
+It is straightforward to prove that if an individual is indifferent between rewards which are equal in expected value, then exponential discounting
+describes time preferences for rewards subject to constant risk. We show that time preferences consistent with optimizing a particular measure of
+reproductive success are described by
+\begin{equation}
+    \Delta^*(t) = \lambda^{-t}P(t)
+    \label{eqn:evolutionary_discounting}
+\end{equation}
+where $\lambda$ is a parameter determined by our measure of reproductive success, and $P(t)$ describes the probabiity of surviving until receipt
+of the reward. 
+
+
+\section{Approach}
+
+In this paper, we derive a discounting function from evolutionary princiles. We start from the assumption that time preferences are
+determined by the adaptive unconscience: selective pressures, rather than subjective choice, determine patience. Consuming immediately or later on
+will have downstream impacts on reproductive success, and on an evolutionary timescale we expect those time preferences consistent with 
+optimizing reproductive success to dominate. 
+
+\section{Tools}
+To quantitatively describe a tradeoff between consumption of two goods, economist use a measure called the marginal rate of substitution. To 
+quantiatively describe reproductive success, ecologists sometimes describe fitness using a population's unit-time growth rate. 
+
+\subsection{Marginal Rate of Substitution}
+An individual's contentment with an endowment of goods $(x_1, x_2)$ can be described using a utility function $u(x_1,x_2)$. The function
+maps a quantity of goods to a real number. We then interpret that the allotment $(x_1, x_2)$ is preferred to $(y_1, y_2)$ precisely when
+$u(x_1, x_2) > u(y_1, y_2)$. Because $u$ gives a quantitative assessment for the values of different baskets of goods, it additionally allows
+us to assess the \textit{relative} value of good $1$ compared with good 2. The \textit{marginal rate of substitution} measures the rate at which
+one good is traded off for another at small amounts. 
+\begin{definition}
+    $\MRS(x_1, x_2) = \frac{\partial u}{\partial x_2}\bigg/\frac{\partial u}{\partial x_1 }$
+    \label{def:MRS}
+\end{definition}
+
+\begin{example}
+    Suppose $u(x_1, x_2) = x_1^{\frac{1}{3}}x_2^{\frac{2}{3}}$. Then $\MRS(x_1, x_2) = 2\frac{x_1}{x_2}$. So given the same allotment of goods 1 and 2,
+    $MRS(1, 1) = 2$, and good 2 is twice as valuable as good one. On the other hand, if we already have twice as much of good 2 as good 1, then 
+    $MRS(1, 2) = 1$, meaning that a marginal increase in either good is equally valuable. 
+\end{example}
+
+\subsection{Fitness}
+Fitness is a bit of a rabbit hole, and I'd rather not get into all of the minute details. 
+
+\section{Result}
+Here goes the result
+
+\section{Conclusion}
+
+And here we conclude.  
 \end{document}
 
