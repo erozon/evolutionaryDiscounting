@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "evolutionaryDiscounting"
+  site-url: "https://erozon.github.io/evolutionaryDiscounting"
+  description: "Supporting online material for The Evolution of Patience"
+  repo-branch: master
+  repo-url: "https://github.com/erozon/evolutionaryDiscounting"
