@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "source\n\nfoo\n\n foo ()"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Evolutionary Discounting",
+    "section": "",
+    "text": "Time preferences describe an individual’s willingness to wait for a delayed reward. Time preferences are quantitatively described by a discounting function \\(\\Delta\\): a reward of magnitude \\(F\\) received after delay \\(t\\) is of the same perceived value as an immediate reward with magnitude:\n\\[ \\text{Present Value} = \\Delta(t) \\cdot F.\\]\nTheorists like to use the exponential discounting function \\(\\Delta_{\\text{exp}}(t) = e^{-rt}\\), where \\(r&gt;0\\). Experimentalists find observed time preferences are better explained by non-exponential discounting functions, including the hyperbolic \\(\\Delta_{\\text{hyp}}(t) = \\frac{1}{1 + ht}\\), where \\(h&gt;0\\).\n\\(\\textit{For example...}\\)\nGiven the choice between chocolate cake and fruit salad, one evaluates the desserts as follows: - Chocolate cake: benefit of magnitude 1 upon consumption. - Fruit salad: benefit of magnitude 2, received 10 days after consumption.\nA decision-maker with hyperbolic discounting function \\(\\Delta(t) = \\frac{1}{1 + t/5}\\) prefers chocolate cake if consumption is immediate, and prefers fruit salad if consumption is more than 5 days in the future.\nChocolate cake offers immediate satisfication, whereas fruit salad gives more delayed health benefits. Experiments with human participants find imposing a delay before consumption changes preferences substantially: a common delay before both the small/immediate reward and the larger/delayed increases the likelihood of waiting for the delayed reward."
+  }
+]
