@@ -2,7 +2,7 @@
 
 d = { 'settings': { 'branch': 'master',
                 'doc_baseurl': '/evolutionaryDiscounting',
-                'doc_host': 'https://erozon.github.io',
-                'git_url': 'https://github.com/erozon/evolutionaryDiscounting',
+                'doc_host': 'https://erozon\n\nrequirements = matplotlib.github.io',
+                'git_url': 'https://github.com/erozon\n\nrequirements = matplotlib/evolutionaryDiscounting',
                 'lib_path': 'evolutionaryDiscounting'},
   'syms': {'evolutionaryDiscounting.core': {'evolutionaryDiscounting.core.foo': ('core.html#foo', 'evolutionaryDiscounting/core.py')}}}
